@@ -5,8 +5,8 @@ public class main {
     public static void main(String[] args) {
         Menu menu = new Menu();
         menu.intro();
-
-        menu.ratingsDesc();
+        menu.mainMain();
+        // menu.ratingsDesc();
         // menu.ratingsAsc();
         // menu.searchForActor();
         // menu.print4();

@@ -20,6 +20,7 @@ public class ReadFromCSV {
                 String split = read.nextLine();
                 values = split.split(",");
 
+                // Make sure director name is filled with a value
                 if (values[1].equals("")) {
                     values[1] = "N/A";
                 }

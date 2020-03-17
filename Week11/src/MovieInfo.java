@@ -130,7 +130,7 @@ public class MovieInfo {
             System.out.printf("%-40s %-40s %-40s %-40s\n", dirName, actName, year, movName);
 
         }
-        // menu.mainMain();
+
     }
 
     public void searchForActor(String actorName) {
@@ -139,7 +139,7 @@ public class MovieInfo {
         Menu menu = new Menu();
 
         for (int i = 1; i < searchActor.size()-1; i++) {
-            if (!(actorName.equalsIgnoreCase(searchActor.get(i).getActorName()))) {
+            if (i == 499 && !(actorName.equalsIgnoreCase(searchActor.get(i).getActorName()))) {
                 System.out.println("Sorry i found no match, please try again:");
                 menu.searchForActor();
             }
@@ -166,7 +166,7 @@ public class MovieInfo {
         Menu menu = new Menu();
 
         for (int i = 1; i < searchDirector.size()-1; i++) {
-            if (!(directorName.equalsIgnoreCase(searchDirector.get(i).getDirectorName()))) {
+            if (i == 499 && !(directorName.equalsIgnoreCase(searchDirector.get(i).getDirectorName()))) {
                 System.out.println("Sorry i found no match, please try again:");
                 menu.searchForDirector();
             }
@@ -174,7 +174,7 @@ public class MovieInfo {
                 System.out.println(directorName + ": Has appeared in: ");
                 System.out.println("|-------------------------------------------------|");
                 for (int j = 1; j < searchDirector.size(); j++) {
-                    if (actorName.equalsIgnoreCase(searchDirector.get(j).getDirectorName())) {
+                    if (directorName.equalsIgnoreCase(searchDirector.get(j).getDirectorName())) {
                         System.out.println("Movie Name: " + searchDirector.get(j).getMovieName());
                         System.out.println("Year: " + searchDirector.get(j).getYear());
                         System.out.println("Duration: " + searchDirector.get(j).getDuration());
@@ -207,7 +207,7 @@ public class MovieInfo {
             System.out.printf("%-60s %-60s\n", movieName, imdbScore);
 
         }
-        // menu.mainMain();
+
     }
 
     public void ratingsAsc() {
@@ -230,7 +230,7 @@ public class MovieInfo {
             System.out.printf("%-60s %-60s\n", movieName, imdbScore);
 
         }
-        // menu.mainMain();
+
     }
 
     public String getColor() {

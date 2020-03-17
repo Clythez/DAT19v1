@@ -8,7 +8,6 @@ public class WriteToCSV {
 
     public void convertToCSV() {
         ReadFromCSV filler = new ReadFromCSV();
-        MovieInfo movinfo = new MovieInfo();
         ArrayList<MovieInfo> writeList = filler.readFromCSV();
 
         try {

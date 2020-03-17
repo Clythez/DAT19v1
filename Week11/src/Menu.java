@@ -53,6 +53,8 @@ public class Menu {
     public void print4() {
         MovieInfo mov = new MovieInfo();
         mov.printFour();
+
+        mainMain();
     }
 
     public void searchForActor() {
@@ -62,6 +64,7 @@ public class Menu {
 
         MovieInfo mov = new MovieInfo();
         mov.searchForActor(name);
+        mainMain();
     }
 
     public void searchForDirector() {
@@ -71,18 +74,21 @@ public class Menu {
 
         MovieInfo mov = new MovieInfo();
         mov.searchForDirector(name);
+        mainMain();
     }
 
     public void ratingsDesc() {
         System.out.println("List of ratings by descending order:");
         MovieInfo mov = new MovieInfo();
         mov.ratingsDesc();
+        mainMain();
     }
 
     public void ratingsAsc() {
         System.out.println("List of ratings by ascending order:");
         MovieInfo mov = new MovieInfo();
         mov.ratingsAsc();
+        mainMain();
     }
 
     public void writeToCSV() {
@@ -95,7 +101,8 @@ public class Menu {
             writer.convertToCSV();
             System.out.println("Process completed");
         } else {
-            mainMain();
+            System.out.println("Did not succeed, try again");
         }
+        mainMain();
     }
 }
