@@ -1,0 +1,127 @@
+22-05-20 21:19:16
+com-0 192.168.1.61
+Unsuccesful handshake attempt
+22-05-20 21:21:50
+	com-0 192.168.1.61
+Unsuccesful handshake attempt
+22-05-20 21:26:45
+	com-0 192.168.1.61
+com-0 accept 192.168.1.61
+com-0 accept
+22-05-20 21:27:16
+	com-0 192.168.1.61
+com-0 accept 192.168.1.61
+com-0 accept
+22-05-20 21:27:48
+	com-0 192.168.1.61
+com-0 accept 192.168.1.61
+com-0 accept
+22-05-20 21:29:07
+	com-0 192.168.1.61
+com-0 accept 192.168.1.61
+com-0 accept
+22-05-20 21:31:34
+	con-h 0x00
+	Unsuccesful handshake attempt
+22-05-20 21:31:35
+	con-h 0x00
+	com-0 accept 192.168.1.61
+	com-0 192.168.1.61
+22-05-20 21:32:14
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 21:59:31
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:02:40
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:06:58
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:08:00
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:09:37
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:10:03
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:15:35
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:16:44
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:21:54
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:22:53
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:26:40
+	Spam
+	Unsuccesful handshake attempt
+22-05-20 22:26:40
+	Spam
+	com-0 accept 192.168.1.61
+	Spam
+22-05-20 22:26:53
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:29:09
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:30:46
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:31:02
+	Spam
+	Unsuccesful handshake attempt
+22-05-20 22:31:02
+	Spam
+	com-0 accept 192.168.1.61
+	Spam
+22-05-20 22:31:13
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+22-05-20 22:31:47
+	com-0 192.168.1.61
+	com-0 accept 192.168.1.61
+	com-0 accept
+28-05-20 09:34:07
+	com-0 192.168.56.1
+	com-0 accept 192.168.56.1
+	com-0 accept
+28-05-20 09:34:56
+	com-0 192.168.56.1
+	com-0 accept 192.168.56.1
+	com-0 accept
+28-05-20 09:50:02
+	com-0 192.168.56.1
+	com-0 accept 192.168.56.1
+	com-0 accept
+28-05-20 09:51:25
+	com-0 192.168.56.1
+	com-0 accept 192.168.56.1
+	com-0 accept
+28-05-20 09:52:35
+	com-0 192.168.56.1
+	com-0 accept 192.168.56.1
+	com-0 accept
